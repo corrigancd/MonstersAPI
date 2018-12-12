@@ -1,0 +1,26 @@
+{
+  "name": "monstersapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg": "^7.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "configure": ".\\bin\\configuredb.sh",
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
+
+
